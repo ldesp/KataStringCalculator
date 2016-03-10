@@ -7,25 +7,25 @@ import org.junit.Test;
 public class MethodAddTest {
 
 	@Test
-	public void AddShouldReturnZeroWithEmptyString() {
+	public void addShouldReturnZeroWithEmptyString() {
 		StringCalculator calculator = new StringCalculator();
 		assertEquals( 0, calculator.add(""));
 	}
 
 	@Test
-	public void AddShouldReturnOneWithValueOne() {
+	public void addShouldReturnOneWithValueOne() {
 		StringCalculator calculator = new StringCalculator();
 		assertEquals( 1, calculator.add("1"));
 	}
 	
 	@Test
-	public void AddShouldReturnTwoWithValueTwo() {
+	public void addShouldReturnTwoWithValueTwo() {
 		StringCalculator calculator = new StringCalculator();
 		assertEquals( 2, calculator.add("2"));
 	}
 	
 	@Test
-	public void AddShouldReturnThreeWithTwoNumbers() {
+	public void addShouldReturnThreeWithTwoNumbers() {
 		StringCalculator calculator = new StringCalculator();
 		assertEquals( 3, calculator.add("1,2"));
 	}
